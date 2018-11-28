@@ -11,18 +11,21 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "StepA.R",
             "target": "data.csv"
         }
     ],
     "nodes": [
         {
-            "name": "clean.R"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "not assigned",
+            "desc": "Part A: Load and condition the text file that contains the speech",
+            "name": "StepA.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-28 07:56:49",
+    "updated_at": "2018-11-28 07:57:24",
     "url": "https://github.com/fall2018-saltz/ananth_gv_text_mining"
 }
