@@ -5,7 +5,7 @@
 #2.	The key column to focus on is the ‘freeText’ column
 #################################################################
 
-setwd("D:/Workspace Syracuse/Intro to Data Science/")      # setwd function is used to set the working directory contating the json file.
+#setwd("D:/Workspace Syracuse/Intro to Data Science/")      # setwd function is used to set the working directory contating the json file.
 library(jsonlite)                                          # jsonlite library is loaded using function library() to perform json file operations
 library(tm)                                                # tm is a text mining library or package of R that is loaded using library() fucntion to perform text mining operations
 library(wordcloud)                                         # wordcloud library is loaded for graphical representation of frequently used words
